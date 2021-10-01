@@ -6,13 +6,26 @@
     "name": "https://schema.org/name",
     "description": "https://schema.org/description",
     "identifier": "https://schema.org/identifier",
-     "TransportDocument": {
+    "TransportDocument": {
       "@id": "https://w3id.org/traceability#TransportDocument",
       "@context": {
         "placeOfIssue": {
           "@id": "https://service.unece.org/trade/uncefact/vocabulary/uncefact/#issueLocation"
+        },
+
+        "shippingInstruction": {
+          "@id": "https://api.swaggerhub.com/domains/dcsaorg/DCSA_DOMAIN/1.0.1#/components/schemas/shippingInstruction"
+        }
+      }
+    },
+    "ShippingInstruction": {
+      "@id": "https://w3id.org/traceability#ShippingInstruction",
+      "@context": {
+        "shippingInstructionID": {
+          "@id": "https://service.unece.org/trade/uncefact/vocabulary/uncl1153/#Transport_instruction_number"
         }
       }
     }
+
   }
 }
