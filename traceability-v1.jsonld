@@ -6,11 +6,11 @@
     "name": "https://schema.org/name",
     "description": "https://schema.org/description",
     "identifier": "https://schema.org/identifier",
-    "TransportDocument": {
-      "@id": "https://w3id.org/traceability#BillOfLading",
+     "TransportDocument": {
+      "@id": "https://w3id.org/traceability#TransportDocument",
       "@context": {
         "placeOfIssue": {
-          "@id": "https://service.unece.org/trade/uncefact/vocabulary/uncefact/#issueLocation,
+          "@id": "https://service.unece.org/trade/uncefact/vocabulary/uncefact/#issueLocation"
         }
       }
     }
